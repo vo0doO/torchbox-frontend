@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="first" type="CompoundRunConfigurationType">
+    <toRun name="start" type="js.build_tools.npm" />
+    <toRun name="test" type="js.build_tools.npm" />
+    <toRun name="install" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>
