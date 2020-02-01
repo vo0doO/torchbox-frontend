@@ -57,6 +57,7 @@ typings/
 # gatsby files
 .cache/
 public
+schema.graphql
 
 # Mac files
 .DS_Store
@@ -71,3 +72,4 @@ yarn-error.log
 /.idea/misc.xml
 /.idea/codeStyles/Project.xml
 /.idea/codeStyles/codeStyleConfig.xml
+/.graphqlconfig
