@@ -3,7 +3,7 @@ var browserslist = require('browserslist')
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://torchbox.com`,
+    siteUrl: `https://secret-sea-24244.herokuapp.com/`,
     title: `Torchbox`,
     description: `The digital product agency for tomorrow's non-profits`,
     author: `@Torchbox`,
@@ -16,7 +16,7 @@ module.exports = {
         headers: {
           "/*": [
             "Strict-Transport-Security: max-age=86400",
-            "X-Frame-Options: allow-from https://cms.torchbox.com/",
+            "X-Frame-Options: allow-from https://secret-sea-24244.herokuapp.com/",
             "X-XSS-Protection: 1; mode=block",
             "X-Content-Type-Options: nosniff",
           ],
@@ -76,7 +76,7 @@ module.exports = {
       options: {
         typeName: "Wagtail",
         fieldName: 'wagtail',
-        url: process.env.GATSBY_WAGTAIL_ENDPOINT || 'http://localhost:8000/graphql/',
+        url: process.env.GATSBY_WAGTAIL_ENDPOINT || 'https://secret-sea-24244.herokuapp.com/graphql/',
         // refetchInterval: 10,
       },
     },
@@ -100,11 +100,11 @@ module.exports = {
     {
     resolve: `gatsby-plugin-google-tagmanager`,
     options: {
-      id: "GTM-K5HPMR",
+      id: "GTM-PRSPFXM",
 
       // Include GTM in development.
       // Defaults to false meaning GTM will only be loaded in production.
-      includeInDevelopment: false,
+      includeInDevelopment: true,
     },
   },
   ],
